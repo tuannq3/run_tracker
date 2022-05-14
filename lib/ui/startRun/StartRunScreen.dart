@@ -4,7 +4,7 @@ import 'dart:io' show Directory, File, Platform;
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 import 'package:geolocator/geolocator.dart' as geoLocator;
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+// import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -76,7 +76,7 @@ class _StartRunScreenState extends State<StartRunScreen>
 
   late StopWatchTimer stopWatchTimer;
   bool kmSelected = true;
-  InterstitialAd? _interstitialAd;
+  // InterstitialAd? _interstitialAd;
   bool _isInterstitialAdReady = false;
 
   @override
@@ -126,7 +126,7 @@ class _StartRunScreenState extends State<StartRunScreen>
 
   @override
   Future<void> dispose() async {
-    _interstitialAd?.dispose();
+    // _interstitialAd?.dispose();
     stopWatchTimer.dispose();
     _locationSubscription!.cancel();
     super.dispose();
@@ -613,34 +613,40 @@ class _StartRunScreenState extends State<StartRunScreen>
   }
 
   void _loadInterstitialAd() {
-    InterstitialAd.load(
-      adUnitId: AdHelper.interstitialAdUnitId,
-      request: AdRequest(
-          nonPersonalizedAds: Utils.nonPersonalizedAds()
-      ),
-      adLoadCallback: InterstitialAdLoadCallback(
-        onAdLoaded: (ad) {
-          this._interstitialAd = ad;
-
-          ad.fullScreenContentCallback = FullScreenContentCallback(
-            onAdDismissedFullScreenContent: (ad) {
-              Navigator.pushAndRemoveUntil(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) =>
-                          WellDoneScreen(runningData: runningData)),
-                  ModalRoute.withName("/homeWizardScreen"));
-            },
-          );
-
-          _isInterstitialAdReady = true;
-        },
-        onAdFailedToLoad: (err) {
-          print('Failed to load an interstitial ad: ${err.message}');
-          _isInterstitialAdReady = false;
-        },
-      ),
-    );
+    // InterstitialAd.load(
+    //   adUnitId: AdHelper.interstitialAdUnitId,
+    //   request: AdRequest(
+    //       nonPersonalizedAds: Utils.nonPersonalizedAds()
+    //   ),
+    //   adLoadCallback: InterstitialAdLoadCallback(
+    //     onAdLoaded: (ad) {
+    //       this._interstitialAd = ad;
+    //
+    //       ad.fullScreenContentCallback = FullScreenContentCallback(
+    //         onAdDismissedFullScreenContent: (ad) {
+    //           Navigator.pushAndRemoveUntil(
+    //               context,
+    //               MaterialPageRoute(
+    //                   builder: (context) =>
+    //                       WellDoneScreen(runningData: runningData)),
+    //               ModalRoute.withName("/homeWizardScreen"));
+    //         },
+    //       );
+    //
+    //       _isInterstitialAdReady = true;
+    //     },
+    //     onAdFailedToLoad: (err) {
+    //       print('Failed to load an interstitial ad: ${err.message}');
+    //       _isInterstitialAdReady = false;
+    //     },
+    //   ),
+    // );
+    Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(
+            builder: (context) =>
+                WellDoneScreen(runningData: runningData)),
+        ModalRoute.withName("/homeWizardScreen"));
   }
 
   @override
@@ -687,15 +693,21 @@ class _StartRunScreenState extends State<StartRunScreen>
       runningData!.imageFile = newFile;
       runningData!.image = newFile.path;
 
-      if (_isInterstitialAdReady) {
-        _interstitialAd?.show();
-      } else {
-        Navigator.pushAndRemoveUntil(
-            context,
-            MaterialPageRoute(
-                builder: (context) => WellDoneScreen(runningData: runningData)),
-            ModalRoute.withName("/homeWizardScreen"));
-      }
+      // if (_isInterstitialAdReady) {
+      //   _interstitialAd?.show();
+      // } else {
+      //   Navigator.pushAndRemoveUntil(
+      //       context,
+      //       MaterialPageRoute(
+      //           builder: (context) => WellDoneScreen(runningData: runningData)),
+      //       ModalRoute.withName("/homeWizardScreen"));
+      // }
+
+      Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(
+              builder: (context) => WellDoneScreen(runningData: runningData)),
+          ModalRoute.withName("/homeWizardScreen"));
 
       return true;
     } catch (e) {

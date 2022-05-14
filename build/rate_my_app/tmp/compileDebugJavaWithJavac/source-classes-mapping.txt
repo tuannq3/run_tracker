@@ -1,2 +1,0 @@
-fr/skyost/rate_my_app/BuildConfig.java
- fr.skyost.rate_my_app.BuildConfig
