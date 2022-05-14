@@ -675,6 +675,8 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   _activitiesView(BuildContext context, int index, double fullheight) {
+    if(recentActivitiesData[index].getImage() == null) return SizedBox();
+    if(recentActivitiesData[index].distance == null) return;
     return InkWell(
       onTap: () {
         Navigator.push(
@@ -694,7 +696,7 @@ class _HomeScreenState extends State<HomeScreen>
           child: Row(
             children: [
               ClipRRect(
-                child: Image.file(
+                child: recentActivitiesData[index].getImage() != null ? Image.file(
                   recentActivitiesData[index].getImage()!,
                   errorBuilder: (
                     BuildContext context,
@@ -711,7 +713,7 @@ class _HomeScreenState extends State<HomeScreen>
                   height: 90,
                   width: 90,
                   fit: BoxFit.fill,
-                ),
+                ) : SizedBox(),
                 borderRadius: BorderRadius.circular(10),
               ),
               Expanded(
@@ -721,7 +723,7 @@ class _HomeScreenState extends State<HomeScreen>
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        recentActivitiesData[index].date!,
+                        recentActivitiesData[index].date ?? "",
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 15,
@@ -730,7 +732,7 @@ class _HomeScreenState extends State<HomeScreen>
                       Row(
                         children: [
                           Text(
-                          (isKmSelected)?recentActivitiesData[index].distance!.toString():Utils.kmToMile(recentActivitiesData[index].distance!).toStringAsFixed(2),
+                            recentActivitiesData[index].distance == null ? "" :  (isKmSelected)?recentActivitiesData[index].distance!.toString():Utils.kmToMile(recentActivitiesData[index].distance!).toStringAsFixed(2),
                             textAlign: TextAlign.end,
                             style: TextStyle(
                                 fontWeight: FontWeight.w500,
@@ -757,8 +759,8 @@ class _HomeScreenState extends State<HomeScreen>
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              Utils.secToString(
-                                  recentActivitiesData[index].duration!),
+                        recentActivitiesData[index].duration != null ? Utils.secToString(
+                                  recentActivitiesData[index].duration!) : "",
                               style: TextStyle(
                                   fontWeight: FontWeight.w400,
                                   fontSize: 15,
@@ -774,7 +776,7 @@ class _HomeScreenState extends State<HomeScreen>
                             Row(
                               children: [
                                 Text(
-                                  recentActivitiesData[index].cal!.toString(),
+                                  recentActivitiesData[index].cal?.toString() ?? "",
                                   style: TextStyle(
                                       fontWeight: FontWeight.w400,
                                       fontSize: 15,
@@ -783,7 +785,7 @@ class _HomeScreenState extends State<HomeScreen>
                                 Padding(
                                   padding: const EdgeInsets.only(left: 3.0),
                                   child: Text(
-                                    Languages.of(context)!.txtKcal,
+                                    Languages.of(context)?.txtKcal ?? "",
                                     style: TextStyle(
                                         fontWeight: FontWeight.w400,
                                         fontSize: 15,

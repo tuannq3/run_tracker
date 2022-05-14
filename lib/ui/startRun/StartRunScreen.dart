@@ -128,7 +128,7 @@ class _StartRunScreenState extends State<StartRunScreen>
   Future<void> dispose() async {
     // _interstitialAd?.dispose();
     stopWatchTimer.dispose();
-    _locationSubscription!.cancel();
+    _locationSubscription?.cancel();
     super.dispose();
   }
 
@@ -641,12 +641,14 @@ class _StartRunScreenState extends State<StartRunScreen>
     //     },
     //   ),
     // );
-    Navigator.pushAndRemoveUntil(
-        context,
-        MaterialPageRoute(
-            builder: (context) =>
-                WellDoneScreen(runningData: runningData)),
-        ModalRoute.withName("/homeWizardScreen"));
+    Future.delayed(Duration(seconds: 500), () {
+      Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(
+              builder: (context) =>
+                  WellDoneScreen(runningData: runningData)),
+          ModalRoute.withName("/homeWizardScreen"));
+    },);
   }
 
   @override
