@@ -41,7 +41,7 @@ dependencies:
   url_launcher: ^6.0.18
   auto_size_text: ^3.0.0
   rate_my_app: ^1.1.1+1
-  google_mobile_ads: ^1.0.1
+#  google_mobile_ads: ^1.0.1
   app_tracking_transparency: ^2.0.2+1
 
 dev_dependencies:

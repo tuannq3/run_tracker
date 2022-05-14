@@ -1,7 +1,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
+// import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/intl.dart';
 import 'package:run_tracker/ad_helper.dart';
 import 'package:run_tracker/common/commonTopBar/CommonTopBar.dart';
@@ -52,7 +52,7 @@ class _DrinkWaterLevelScreenState extends State<DrinkWaterLevelScreen>
 
   List<String> allDays = DateFormat.EEEE(getLocale().languageCode).dateSymbols.SHORTWEEKDAYS;
 
-  late BannerAd _bannerAd;
+  // late BannerAd _bannerAd;
   bool _isBannerAdReady = false;
 
   @override
@@ -82,27 +82,27 @@ class _DrinkWaterLevelScreenState extends State<DrinkWaterLevelScreen>
   }
 
   _loadBanner() {
-    _bannerAd = BannerAd(
-      adUnitId: AdHelper.bannerAdUnitId,
-      request: AdRequest(
-          nonPersonalizedAds: Utils.nonPersonalizedAds()
-      ),
-      size: AdSize.banner,
-      listener: BannerAdListener(
-        onAdLoaded: (_) {
-          setState(() {
-            _isBannerAdReady = true;
-          });
-        },
-        onAdFailedToLoad: (ad, err) {
-          print('Failed to load a banner ad: ${err.message}');
-          _isBannerAdReady = false;
-          ad.dispose();
-        },
-      ),
-    );
-
-    _bannerAd.load();
+    // _bannerAd = BannerAd(
+    //   adUnitId: AdHelper.bannerAdUnitId,
+    //   request: AdRequest(
+    //       nonPersonalizedAds: Utils.nonPersonalizedAds()
+    //   ),
+    //   size: AdSize.banner,
+    //   listener: BannerAdListener(
+    //     onAdLoaded: (_) {
+    //       setState(() {
+    //         _isBannerAdReady = true;
+    //       });
+    //     },
+    //     onAdFailedToLoad: (ad, err) {
+    //       print('Failed to load a banner ad: ${err.message}');
+    //       _isBannerAdReady = false;
+    //       ad.dispose();
+    //     },
+    //   ),
+    // );
+    //
+    // _bannerAd.load();
   }
 
   DateTime getDate(DateTime d) => DateTime(d.year, d.month, d.day);
@@ -249,15 +249,15 @@ class _DrinkWaterLevelScreenState extends State<DrinkWaterLevelScreen>
             ),
           ),
 
-          if (_isBannerAdReady)
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Container(
-                width: _bannerAd.size.width.toDouble(),
-                height: _bannerAd.size.height.toDouble(),
-                child: AdWidget(ad: _bannerAd),
-              ),
-            ),
+          // if (_isBannerAdReady)
+          //   Align(
+          //     alignment: Alignment.bottomCenter,
+          //     child: Container(
+          //       width: _bannerAd.size.width.toDouble(),
+          //       height: _bannerAd.size.height.toDouble(),
+          //       child: AdWidget(ad: _bannerAd),
+          //     ),
+          //   ),
 
         ],
       ),
