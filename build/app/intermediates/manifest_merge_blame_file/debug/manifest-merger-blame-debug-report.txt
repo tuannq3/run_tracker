@@ -1,0 +1,611 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.run_tracker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:8:5-67
+11-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:4:5-81
+12-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+14-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:7:5-77
+15-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:7:22-74
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:9:5-81
+16-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:10:5-80
+17-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+18-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:11:5-80
+18-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:11:22-77
+19
+20    <queries>
+20-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:13:5-23:15
+21        <intent>
+21-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:14:9-17:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:15:13-65
+22-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:15:21-62
+23
+24            <data android:scheme="https" />
+24-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:16:13-44
+24-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:16:19-41
+25        </intent>
+26        <intent>
+26-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:18:9-22:18
+27            <action android:name="android.intent.action.SEND" />
+27-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:19:13-65
+27-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:19:21-62
+28
+29            <category android:name="android.intent.category.APP_EMAIL" />
+29-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:20:13-74
+29-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:20:23-71
+30
+31            <data android:mimeType="*/*" />
+31-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:16:13-44
+32        </intent>
+33        <!-- Needs to be explicitly declared on Android R+ -->
+34        <package android:name="com.google.android.apps.maps" /> <!-- For browser content -->
+34-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+34-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+35        <intent>
+35-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:31:9-37:18
+36            <action android:name="android.intent.action.VIEW" />
+36-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:15:13-65
+36-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:15:21-62
+37
+38            <category android:name="android.intent.category.BROWSABLE" />
+38-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:34:13-74
+38-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:34:23-71
+39
+40            <data android:scheme="https" />
+40-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:16:13-44
+40-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:16:19-41
+41        </intent> <!-- End of browser content -->
+42        <!-- For CustomTabsService -->
+43        <intent>
+43-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:40:9-42:18
+44            <action android:name="android.support.customtabs.action.CustomTabsService" />
+44-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:41:13-90
+44-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:41:21-87
+45        </intent>
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+48-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+48-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+49    <uses-permission android:name="android.permission.VIBRATE" />
+49-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+49-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+50    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+50-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+50-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+51    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Include required permissions for Google Maps API to run. -->
+51-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+51-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+52    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+52-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+52-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+53
+54    <uses-feature
+54-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+55        android:glEsVersion="0x00020000"
+55-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+56        android:required="true" />
+56-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+57
+58    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+58-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:25:5-79
+58-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:25:22-76
+59    <uses-permission android:name="android.permission.WAKE_LOCK" />
+59-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6f41932776f29e71f30b9b9900fac0bd/jetified-play-services-measurement-sdk-api-18.0.3/AndroidManifest.xml:25:5-68
+59-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.3] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6f41932776f29e71f30b9b9900fac0bd/jetified-play-services-measurement-sdk-api-18.0.3/AndroidManifest.xml:25:22-65
+60
+61    <application
+61-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:25:5-69:19
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/dff32a206c374e0a23f32720563d9e44/core-1.7.0/AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:icon="@mipmap/ic_launcher_foreground"
+64-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:26:9-54
+65        android:label="Run Tracker"
+65-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:27:9-36
+66        android:requestLegacyExternalStorage="true" >
+66-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:28:9-52
+67        <meta-data
+67-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:29:9-31:71
+68            android:name="com.google.android.geo.API_KEY"
+68-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:30:13-58
+69            android:value="AIzaSyCQ13O5S6xWRNv5LUWceCXFunPgbJCpTG8" />
+69-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:31:13-68
+70        <meta-data
+70-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:32:9-34:69
+71            android:name="com.google.android.gms.ads.APPLICATION_ID"
+71-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:33:13-69
+72            android:value="ca-app-pub-3940256099942544~3347511713" />
+72-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:34:13-67
+73
+74        <receiver android:name="dk.cachet.activity_recognition_flutter.ActivityRecognizedBroadcastReceiver" />
+74-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:35:9-110
+74-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:35:19-108
+75
+76        <service
+76-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:36:9-39:38
+77            android:name="dk.cachet.activity_recognition_flutter.ActivityRecognizedService"
+77-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:37:13-92
+78            android:exported="true"
+78-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:39:13-36
+79            android:permission="android.permission.BIND_JOB_SERVICE" />
+79-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:38:13-69
+80        <service android:name="dk.cachet.activity_recognition_flutter.ForegroundService" />
+80-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:40:9-92
+80-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:40:18-89
+81
+82        <activity
+82-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:42:9-64:20
+83            android:name="com.example.run_tracker.MainActivity"
+83-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:43:13-41
+84            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+84-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:44:13-163
+85            android:exported="true"
+85-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:51:13-36
+86            android:hardwareAccelerated="true"
+86-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:45:13-47
+87            android:launchMode="singleTop"
+87-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:46:13-43
+88            android:showWhenLocked="true"
+88-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:47:13-42
+89            android:theme="@style/LaunchTheme"
+89-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:48:13-47
+90            android:turnScreenOn="true"
+90-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:49:13-40
+91            android:windowSoftInputMode="adjustResize" >
+91-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:50:13-55
+92            <meta-data
+92-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:53:13-55:57
+93                android:name="io.flutter.embedding.android.NormalTheme"
+93-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:54:17-72
+94                android:resource="@style/NormalTheme" />
+94-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:55:17-54
+95            <meta-data
+95-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:57:13-59:56
+96                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+96-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:58:17-81
+97                android:resource="@mipmap/ic_splash" />
+97-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:59:17-53
+98
+99            <intent-filter>
+99-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:60:13-63:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:61:17-69
+100-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:61:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:62:17-77
+102-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:62:27-74
+103            </intent-filter>
+104        </activity>
+105
+106        <meta-data
+106-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:66:9-68:33
+107            android:name="flutterEmbedding"
+107-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:67:13-44
+108            android:value="2" />
+108-->/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/android/app/src/main/AndroidManifest.xml:68:13-30
+109
+110        <service
+110-->[:geolocator_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+111            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+111-->[:geolocator_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+112            android:enabled="true"
+112-->[:geolocator_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+113            android:exported="false"
+113-->[:geolocator_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+114            android:foregroundServiceType="location" />
+114-->[:geolocator_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+115
+116        <receiver
+116-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+117            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+117-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+118            android:exported="false" />
+118-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+119        <receiver
+119-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+120            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+120-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+121            android:exported="false" >
+121-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+122            <intent-filter>
+122-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+123                <action android:name="android.intent.action.BOOT_COMPLETED" />
+123-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+123-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+124                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+124-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+124-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+125                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+125-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+125-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+126                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+126-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+126-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+127            </intent-filter>
+128        </receiver>
+129
+130        <activity
+130-->[:url_launcher_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+131            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+131-->[:url_launcher_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+132            android:exported="false"
+132-->[:url_launcher_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+133            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+133-->[:url_launcher_android] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+134
+135        <meta-data
+135-->[:google_mobile_ads] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:36
+136            android:name="io.flutter.embedded_views_preview"
+136-->[:google_mobile_ads] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-61
+137            android:value="true" />
+137-->[:google_mobile_ads] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-33
+138
+139        <provider
+139-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+140            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+140-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-77
+141            android:authorities="com.example.run_tracker.flutter.share_provider"
+141-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+142            android:exported="false"
+142-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+143            android:grantUriPermissions="true" >
+143-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+144            <meta-data
+144-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:68
+145                android:name="android.support.FILE_PROVIDER_PATHS"
+145-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+146                android:resource="@xml/flutter_share_file_paths" />
+146-->[:share_plus] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-65
+147        </provider>
+148
+149        <service
+149-->[:location] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+150            android:name="com.lyokone.location.FlutterLocationService"
+150-->[:location] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+151            android:enabled="true"
+151-->[:location] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+152            android:exported="false"
+152-->[:location] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+153            android:foregroundServiceType="location" />
+153-->[:location] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+154
+155        <uses-library
+155-->[androidx.window:window:1.0.0-beta04] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/4ae8db8808990911ffb0cc1d905648d2/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+156            android:name="androidx.window.extensions"
+156-->[androidx.window:window:1.0.0-beta04] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/4ae8db8808990911ffb0cc1d905648d2/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+157            android:required="false" />
+157-->[androidx.window:window:1.0.0-beta04] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/4ae8db8808990911ffb0cc1d905648d2/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+158        <uses-library
+158-->[androidx.window:window:1.0.0-beta04] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/4ae8db8808990911ffb0cc1d905648d2/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+159            android:name="androidx.window.sidecar"
+159-->[androidx.window:window:1.0.0-beta04] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/4ae8db8808990911ffb0cc1d905648d2/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+160            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+160-->[androidx.window:window:1.0.0-beta04] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/4ae8db8808990911ffb0cc1d905648d2/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+161        <uses-library
+161-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+162            android:name="org.apache.http.legacy"
+162-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+163            android:required="false" />
+163-->[com.google.android.gms:play-services-maps:18.0.2] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/677c07c5383260cd69a34fcb2a7d9b4d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:18.0.1] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/f48f6fdf536b18508471aa7b4251aca2/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:18.0.1] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/f48f6fdf536b18508471aa7b4251aca2/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:18.0.1] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/f48f6fdf536b18508471aa7b4251aca2/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+168-->[com.google.android.gms:play-services-base:18.0.1] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/f48f6fdf536b18508471aa7b4251aca2/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+169        <activity
+169-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:49:9-53:64
+170            android:name="com.google.android.gms.ads.AdActivity"
+170-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:50:13-65
+171            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+171-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:51:13-122
+172            android:exported="false"
+172-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:52:13-37
+173            android:theme="@android:style/Theme.Translucent" />
+173-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:53:13-61
+174
+175        <provider
+175-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:55:9-59:39
+176            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+176-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:56:13-76
+177            android:authorities="com.example.run_tracker.mobileadsinitprovider"
+177-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:57:13-73
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:58:13-37
+179            android:initOrder="100" />
+179-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:59:13-36
+180
+181        <service
+181-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:61:9-64:40
+182            android:name="com.google.android.gms.ads.AdService"
+182-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:62:13-64
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:63:13-35
+184            android:exported="false" />
+184-->[com.google.android.gms:play-services-ads-lite:20.6.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/6880957f62ba4ae97e04a0bf721efd98/jetified-play-services-ads-lite-20.6.0/AndroidManifest.xml:64:13-37
+185
+186        <meta-data
+186-->[com.google.android.gms:play-services-basement:18.0.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/dce4d32ad0f1d3f0b2b133a3c589c497/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+187            android:name="com.google.android.gms.version"
+187-->[com.google.android.gms:play-services-basement:18.0.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/dce4d32ad0f1d3f0b2b133a3c589c497/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+188            android:value="@integer/google_play_services_version" />
+188-->[com.google.android.gms:play-services-basement:18.0.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/dce4d32ad0f1d3f0b2b133a3c589c497/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+189
+190        <provider
+190-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+191            android:name="androidx.startup.InitializationProvider"
+191-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+192            android:authorities="com.example.run_tracker.androidx-startup"
+192-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+193            android:exported="false" >
+193-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+194            <meta-data
+194-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+195                android:name="androidx.work.WorkManagerInitializer"
+195-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+196                android:value="androidx.startup" />
+196-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+197        </provider>
+198
+199        <service
+199-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+200            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+200-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+201            android:directBootAware="false"
+201-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+202            android:enabled="@bool/enable_system_alarm_service_default"
+202-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+203            android:exported="false" />
+203-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+204        <service
+204-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+205            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+205-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+207            android:enabled="@bool/enable_system_job_service_default"
+207-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+208            android:exported="true"
+208-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+209            android:permission="android.permission.BIND_JOB_SERVICE" />
+209-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+210        <service
+210-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+211            android:name="androidx.work.impl.foreground.SystemForegroundService"
+211-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+212            android:directBootAware="false"
+212-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+213            android:enabled="@bool/enable_system_foreground_service_default"
+213-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+214            android:exported="false" />
+214-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+215
+216        <receiver
+216-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+217            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+217-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+218            android:directBootAware="false"
+218-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+219            android:enabled="true"
+219-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+220            android:exported="false" />
+220-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+221        <receiver
+221-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+222            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+222-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+223            android:directBootAware="false"
+223-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+224            android:enabled="false"
+224-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+225            android:exported="false" >
+225-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+226            <intent-filter>
+226-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+227                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+227-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+227-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+228                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+228-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+228-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+232            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+232-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+234            android:enabled="false"
+234-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+235            android:exported="false" >
+235-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+236            <intent-filter>
+236-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+237                <action android:name="android.intent.action.BATTERY_OKAY" />
+237-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+237-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+238                <action android:name="android.intent.action.BATTERY_LOW" />
+238-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+238-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+239            </intent-filter>
+240        </receiver>
+241        <receiver
+241-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+242            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+242-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+243            android:directBootAware="false"
+243-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+244            android:enabled="false"
+244-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+245            android:exported="false" >
+245-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+246            <intent-filter>
+246-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+247                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+247-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+247-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+248                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+248-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+248-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+249            </intent-filter>
+250        </receiver>
+251        <receiver
+251-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+252            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+252-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+254            android:enabled="false"
+254-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+257                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+257-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+257-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+258            </intent-filter>
+259        </receiver>
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+261            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+261-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+263            android:enabled="false"
+263-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+264            android:exported="false" >
+264-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+265            <intent-filter>
+265-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+266                <action android:name="android.intent.action.BOOT_COMPLETED" />
+266-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+266-->[:flutter_local_notifications] /Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+267                <action android:name="android.intent.action.TIME_SET" />
+267-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+267-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+268                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+268-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+268-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+269            </intent-filter>
+270        </receiver>
+271        <receiver
+271-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+272            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+272-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+273            android:directBootAware="false"
+273-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+274            android:enabled="@bool/enable_system_alarm_service_default"
+274-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+275            android:exported="false" >
+275-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+276            <intent-filter>
+276-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+277                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+277-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+277-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+278            </intent-filter>
+279        </receiver>
+280        <receiver
+280-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+281            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+281-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+283            android:enabled="true"
+283-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+284            android:exported="true"
+284-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+285            android:permission="android.permission.DUMP" >
+285-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+286            <intent-filter>
+286-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+287                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+287-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+287-->[androidx.work:work-runtime:2.7.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/456fd43c0d6aae1d5878665b06850e46/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+288            </intent-filter>
+289        </receiver>
+290
+291        <provider
+291-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/858bc56ceee9b9dfdd8c1840c3fd13f4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+292            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+292-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/858bc56ceee9b9dfdd8c1840c3fd13f4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+293            android:authorities="com.example.run_tracker.lifecycle-process"
+293-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/858bc56ceee9b9dfdd8c1840c3fd13f4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+294            android:exported="false"
+294-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/858bc56ceee9b9dfdd8c1840c3fd13f4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+295            android:multiprocess="true" />
+295-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/858bc56ceee9b9dfdd8c1840c3fd13f4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+296
+297        <service
+297-->[androidx.room:room-runtime:2.2.5] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/0bfedd79699b7f7979cefa4639632ebf/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+298            android:name="androidx.room.MultiInstanceInvalidationService"
+298-->[androidx.room:room-runtime:2.2.5] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/0bfedd79699b7f7979cefa4639632ebf/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+299            android:directBootAware="true"
+299-->[androidx.room:room-runtime:2.2.5] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/0bfedd79699b7f7979cefa4639632ebf/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+300            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+300-->[androidx.room:room-runtime:2.2.5] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/0bfedd79699b7f7979cefa4639632ebf/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+301        <activity
+301-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+302            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+302-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+303            android:enabled="false"
+303-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+304            android:exported="false"
+304-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+305            android:launchMode="singleInstance"
+305-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+306            android:process=":playcore_missing_splits_activity"
+306-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+307            android:stateNotNeeded="true" />
+307-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+308        <activity
+308-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+309            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+309-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+310            android:enabled="false"
+310-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+311            android:exported="false"
+311-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+312            android:stateNotNeeded="true"
+312-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+313            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+313-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+314        <service
+314-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+315            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+315-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+316            android:enabled="false"
+316-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+317            android:exported="true" />
+317-->[com.google.android.play:core:1.8.0] /Users/tuannq/.gradle/caches/transforms-2/files-2.1/196ae786d38722b0b2e2564e24aafbf0/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+318    </application>
+319
+320</manifest>

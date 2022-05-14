@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/bf57ee6ef03cef43525091c12acf6534/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/bf57ee6ef03cef43525091c12acf6534/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/bf57ee6ef03cef43525091c12acf6534/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/bf57ee6ef03cef43525091c12acf6534/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/63fb01f1b33a5b9a4790eb0dd2a7c91c/browser-1.0.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/63fb01f1b33a5b9a4790eb0dd2a7c91c/browser-1.0.0/res/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/bf57ee6ef03cef43525091c12acf6534/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/tuannq/Desktop/Project/ProjectFlutter/codecanyon-34240320-run-tracker-step-counter-and-water-reminder-flutter-android-ios-app/MainFile-RunTracker(V1.4)/SourceCode/build/google_mobile_ads/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/tuannq/.gradle/caches/transforms-2/files-2.1/bf57ee6ef03cef43525091c12acf6534/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    }
+]
