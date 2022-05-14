@@ -151,6 +151,8 @@ class _RecentActivitiesScreenState extends State<RecentActivitiesScreen>
   }
 
   _activitiesView(BuildContext context, int index, double fullheight) {
+    if(activityList[index].getImage() == null) return SizedBox();
+    if(activityList[index].distance == null) return;
     return InkWell(
       onTap: () {
         Navigator.push(
