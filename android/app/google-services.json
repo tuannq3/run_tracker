@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "480912687137",
+    "project_id": "rikkeisoftproject",
+    "storage_bucket": "rikkeisoftproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480912687137:android:3b4dd72402710468d6a360",
+        "android_client_info": {
+          "package_name": "com.d1.devices.manegment.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480912687137-haisoaua60kb40af9en13vgun6rmmcqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.d1.devices.manegment.app",
+            "certificate_hash": "bc78d90243c4e68100dd92584d513da6238c3042"
+          }
+        },
+        {
+          "client_id": "480912687137-ns3i962csi28mik9jgao16gtcge3hl4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.d1.devices.manegment.app",
+            "certificate_hash": "845d0753bb968cef5c499618f8d9f0d1ebb3844f"
+          }
+        },
+        {
+          "client_id": "480912687137-k58n9q1gn2vovtd1rl13kn0rqot50rvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVcpqgU_CJSrGKIUFmQPrk726NIAwSvAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480912687137-elnungl70hcg5671f9fg7q9jjk1qsspa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "480912687137-2sjr26blrqq3mhrlr06dtkhvapsv6lkc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rikkeisosft.d1-device-management.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480912687137:android:3b6e04c48a3ca7c9d6a360",
+        "android_client_info": {
+          "package_name": "com.d1.devices.manegment.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480912687137-so92hicunqbk57te2kbv8ss4m4jdm85a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.d1.devices.manegment.app.dev",
+            "certificate_hash": "bc78d90243c4e68100dd92584d513da6238c3042"
+          }
+        },
+        {
+          "client_id": "480912687137-k58n9q1gn2vovtd1rl13kn0rqot50rvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVcpqgU_CJSrGKIUFmQPrk726NIAwSvAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480912687137-elnungl70hcg5671f9fg7q9jjk1qsspa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "480912687137-2sjr26blrqq3mhrlr06dtkhvapsv6lkc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rikkeisosft.d1-device-management.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480912687137:android:c0375ae31dabe3bdd6a360",
+        "android_client_info": {
+          "package_name": "com.example.run_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480912687137-k58n9q1gn2vovtd1rl13kn0rqot50rvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVcpqgU_CJSrGKIUFmQPrk726NIAwSvAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480912687137-elnungl70hcg5671f9fg7q9jjk1qsspa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "480912687137-2sjr26blrqq3mhrlr06dtkhvapsv6lkc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rikkeisosft.d1-device-management.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
