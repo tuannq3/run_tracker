@@ -27,7 +27,7 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>email</string>
@@ -36,6 +36,10 @@
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We will sync your data with the Apple Health app to give you better insights</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>We will sync your data with the Apple Health app to give you better insights</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>This app needs access to location to track the user's run route on a map.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -45,7 +49,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This App needs to use Photos.</string>
 	<key>NSUserTrackingUsageDescription</key>
-    <string>This identifier will be used to deliver personalized ads to you.</string>
+	<string>This identifier will be used to deliver personalized ads to you.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>processing</string>

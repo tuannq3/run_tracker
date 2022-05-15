@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:health/health.dart';
 
 import 'package:run_tracker/ui/WelcomeDialogScreen.dart';
+import 'package:run_tracker/ui/weeklygoalSetScreen/WeeklyGoalSetScreenIntro.dart';
 import 'package:run_tracker/ui/wizardScreen/GenderScreen.dart';
 import 'package:run_tracker/ui/wizardScreen/HeightScreen.dart';
 import 'package:run_tracker/ui/wizardScreen/WeightScreen.dart';
@@ -19,14 +21,107 @@ class WizardScreenState extends State<WizardScreen> {
   PageController pageController = new PageController();
   bool isBack = false;
   late int pageNum;
+  HealthFactory health = HealthFactory();
 
   String? genderSelected;
   int? weightSelected;
+  int? heightSelected;
+
+  Future fetchData() async {
+    List<HealthDataPoint> _healthDataList = [];
+    // define the types to get
+    final types = [
+      HealthDataType.STEPS,
+      HealthDataType.WEIGHT,
+      HealthDataType.HEIGHT,
+      HealthDataType.BLOOD_GLUCOSE,
+      // Uncomment this line on iOS - only available on iOS
+      // HealthDataType.DISTANCE_WALKING_RUNNING,
+    ];
+
+    // with coresponsing permissions
+    final permissions = [
+      HealthDataAccess.READ,
+      HealthDataAccess.READ,
+      HealthDataAccess.READ,
+      HealthDataAccess.READ,
+    ];
+
+    // get data within the last 24 hours
+    final now = DateTime.now();
+    final yesterday = now.subtract(Duration(days: 1));
+
+    // requesting access to the data types before reading them
+    // note that strictly speaking, the [permissions] are not
+    // needed, since we only want READ access.
+    bool requested =
+    await health.requestAuthorization(types, permissions: permissions);
+
+    if (requested) {
+      try {
+        // fetch health data
+        List<HealthDataPoint> healthData =
+        await health.getHealthDataFromTypes(yesterday, now, types);
+
+        // save all the new data points (only the first 100)
+        _healthDataList.addAll((healthData.length < 100)
+            ? healthData
+            : healthData.sublist(0, 100));
+      } catch (error) {
+        print("Exception in getHealthDataFromTypes: $error");
+      }
+
+      // filter out duplicates
+      _healthDataList = HealthFactory.removeDuplicates(_healthDataList);
+
+      // print the results
+      _healthDataList.forEach((item) {
+        if(item.type == HealthDataType.WEIGHT) {
+          print(item.value);
+          try {
+            weightSelected = item.value.toInt();
+            print(weightSelected);
+          } catch (e) {
+
+          }
+        }
+        if(item.type == HealthDataType.HEIGHT) {
+          print(item.value);
+          try {
+             heightSelected = item.value.toInt()*100;
+            print(heightSelected);
+          } catch (e) {
+
+          }
+        }
+        if(item.type == HealthDataType.STEPS) {
+          print(item.value);
+        }
+      });
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => WeeklyGoalSetScreen(
+              weight: weightSelected ?? 60,
+              height: heightSelected ?? 170,
+              gender: genderSelected ?? "Male",
+            )
+        ),
+      );
+
+
+      // update the UI to display the results
+
+    } else {
+      print("Authorization not granted");
+      // setState(() => _state = AppState.DATA_NOT_FETCHED);
+    }
+  }
 
   void onGender(String gender) {
     setState(() {
       genderSelected = gender;
-
     });
   }
 
@@ -39,6 +134,7 @@ class WizardScreenState extends State<WizardScreen> {
 
   @override
   void initState() {
+    fetchData();
     super.initState();
 
     pageNum = 1;

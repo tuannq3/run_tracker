@@ -43,6 +43,7 @@ dependencies:
   rate_my_app: ^1.1.1+1
 #  google_mobile_ads: ^1.0.1
   app_tracking_transparency: ^2.0.2+1
+  health: ^3.4.4
 
 dev_dependencies:
   flutter_test:
