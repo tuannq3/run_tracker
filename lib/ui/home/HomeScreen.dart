@@ -61,8 +61,6 @@ class _HomeScreenState extends State<HomeScreen>
     super.initState();
   }
 
-
-
   _initNotificationListener() async {
     final NotificationAppLaunchDetails? notificationAppLaunchDetails =
         await flutterLocalNotificationsPlugin.getNotificationAppLaunchDetails();
